@@ -1,0 +1,162 @@
+.container{
+  width:100%;
+  height:100vh;
+  font-family: Inter;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction: row;
+ overflow: hidden;
+}
+.leftPanel{
+ width:50%;
+ display:flex;
+ flex-direction: column;
+ 
+}
+.rightPanel{
+  width:50%;
+}
+.leftPanel .item1{
+  height: 15vh;
+  margin:15px;
+  padding: 10px;
+}
+
+.leftPanel .item2 {
+  padding:20px;
+  height: 75vh;
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.leftPanel .item2 h1{
+  height:10vh;
+}
+.h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+text-align: left;
+line-height: 32px;
+letter-spacing: -0.01em;
+}
+.leftPanel .item2 .form{
+ height:40vh;
+
+}
+.form .emailContainer{
+  margin:10px;
+  display: flex;
+  height:10vh;
+  align-items: center;
+  justify-content: center;
+}
+.form .emailContainer input{
+width:50%;
+background: rgba(24, 24, 27, 0.05);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+align-self: stretch;
+border-radius: 12px;
+}
+.form .emailContainer .domain{
+ 
+width: 50%;
+background: #FFFFFF;
+border-radius: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.form .passwordContainer {
+margin:10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.passwordContainer input {
+  width:100%;
+  color:#18181B;
+  border:none;
+  position: relative;
+  background: rgba(24, 24, 27, 0.05);;
+}
+
+.toggle{
+  position: absolute;
+  right: 8px;
+  background: none;
+  color:#fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+.h6{ 
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color:#0858F7;
+  font-weight: 700;
+}
+.submit{
+  margin-bottom:10px;
+ border-radius:8px;
+ cursor:pointer;
+ padding: 10px;
+ background-color: #0858F7;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+ width: 100%;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px;
+ height: 45px;
+ border: none;
+ outline:none;
+ transition-property:background;
+ transition-duration:1s ;
+}
+.submit:hover {
+  background: #444;
+ 
+}
+
+
+.leftPanel .item3{
+  margin-top: 20px;
+  padding: 20px;
+  height:10vh;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color:#18181B;
+}
+.leftPanel .item3 span{
+  color:#0858F7;
+}
+
+.rightPanel{
+  width:50%;
+  align-items: center;
+  padding-left: 70px;
+}
+.rightPanel img{
+  position: absolute;
+  height:100vh;
+
+}
